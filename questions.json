@@ -194,6 +194,201 @@
       "correct": 2,
       "difficulty": "Medium",
       "topic": "Email Security"
+    },
+    {
+      "id": 16,
+      "question": "Which protocol is used to securely transfer files over the internet?",
+      "options": [
+        "FTP",
+        "SFTP",
+        "HTTP",
+        "POP3"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Computer Networks"
+    },
+    {
+      "id": 17,
+      "question": "What is the main purpose of a VPN in cybersecurity?",
+      "options": [
+        "To increase internet speed",
+        "To encrypt and anonymize internet traffic",
+        "To block malware",
+        "To store sensitive passwords"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Network Security"
+    },
+    {
+      "id": 18,
+      "question": "Which OS feature helps prevent unauthorized applications from modifying system files?",
+      "options": [
+        "Kernel Mode",
+        "User Access Control (UAC)",
+        "Task Manager",
+        "Command Line Interface"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Operating Systems"
+    },
+    {
+      "id": 19,
+      "question": "What type of cyber attack involves overwhelming a system with excessive traffic?",
+      "options": [
+        "Phishing",
+        "SQL Injection",
+        "Denial-of-Service (DoS)",
+        "Rootkit"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Network Security"
+    },
+    {
+      "id": 20,
+      "question": "Which of the following is a secure replacement for Telnet?",
+      "options": [
+        "SSH",
+        "HTTP",
+        "SNMP",
+        "FTP"
+      ],
+      "correct": 0,
+      "difficulty": "Medium",
+      "topic": "Computer Networks"
+    },
+    {
+      "id": 21,
+      "question": "What does ARP stand for in networking?",
+      "options": [
+        "Automatic Routing Protocol",
+        "Address Resolution Protocol",
+        "Advanced Routing Process",
+        "Authenticated Relay Packet"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Computer Networks"
+    },
+    {
+      "id": 22,
+      "question": "Which command can be used to list open network connections in Linux?",
+      "options": [
+        "ipconfig",
+        "netstat",
+        "traceroute",
+        "ping"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Operating Systems"
+    },
+    {
+      "id": 23,
+      "question": "What is the function of a DMZ (Demilitarized Zone) in network security?",
+      "options": [
+        "To isolate public-facing services from the internal network",
+        "To act as a physical security barrier",
+        "To provide backup power to servers",
+        "To encrypt network traffic"
+      ],
+      "correct": 0,
+      "difficulty": "Hard",
+      "topic": "Network Security"
+    },
+    {
+      "id": 24,
+      "question": "Which type of malware records a user's keystrokes?",
+      "options": [
+        "Trojan Horse",
+        "Spyware",
+        "Keylogger",
+        "Ransomware"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Malware"
+    },
+    {
+      "id": 25,
+      "question": "Which operating system permission model ensures that a process cannot access resources it has not been granted?",
+      "options": [
+        "Mandatory Access Control (MAC)",
+        "Role-Based Access Control (RBAC)",
+        "Discretionary Access Control (DAC)",
+        "User Access Control (UAC)"
+      ],
+      "correct": 0,
+      "difficulty": "Hard",
+      "topic": "Operating Systems"
+    },
+    {
+      "id": 26,
+      "question": "What is the primary role of IDS (Intrusion Detection System)?",
+      "options": [
+        "To prevent unauthorized network access",
+        "To detect and alert on suspicious activity",
+        "To remove malware from infected systems",
+        "To encrypt sensitive data"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Network Security"
+    },
+    {
+      "id": 27,
+      "question": "Which cybersecurity attack targets a web application's database through malicious queries?",
+      "options": [
+        "Phishing",
+        "Cross-Site Scripting (XSS)",
+        "SQL Injection",
+        "Denial-of-Service (DoS)"
+      ],
+      "correct": 2,
+      "difficulty": "Hard",
+      "topic": "Web Security"
+    },
+    {
+      "id": 28,
+      "question": "Which network topology is most resilient to failure?",
+      "options": [
+        "Bus",
+        "Ring",
+        "Mesh",
+        "Star"
+      ],
+      "correct": 2,
+      "difficulty": "Hard",
+      "topic": "Computer Networks"
+    },
+    {
+      "id": 29,
+      "question": "What is the main purpose of two-factor authentication (2FA)?",
+      "options": [
+        "To replace the need for passwords",
+        "To add an extra layer of security beyond passwords",
+        "To automatically log users out after a session",
+        "To store user credentials securely"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Authentication"
+    },
+    {
+      "id": 30,
+      "question": "Which Linux command is used to change file permissions?",
+      "options": [
+        "chmod",
+        "chown",
+        "ls",
+        "pwd"
+      ],
+      "correct": 0,
+      "difficulty": "Medium",
+      "topic": "Operating Systems"
     }
   ]
 }
