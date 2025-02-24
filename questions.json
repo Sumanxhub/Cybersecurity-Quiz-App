@@ -1,0 +1,200 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What does HTTPS stand for?",
+      "options": [
+        "HyperText Transfer Protocol Secure",
+        "Hyperlink Transfer Secure Protocol",
+        "HyperText Transport Protocol Secure",
+        "High-Tech Transfer Security"
+      ],
+      "correct": 0,
+      "difficulty": "Easy",
+      "topic": "Web Security"
+    },
+    {
+      "id": 2,
+      "question": "What is the primary goal of phishing attacks?",
+      "options": [
+        "To steal sensitive information",
+        "To encrypt data for ransom",
+        "To test network security",
+        "To prevent cyberattacks"
+      ],
+      "correct": 0,
+      "difficulty": "Easy",
+      "topic": "Social Engineering"
+    },
+    {
+      "id": 3,
+      "question": "Which of the following is NOT an encryption algorithm?",
+      "options": [
+        "AES",
+        "RSA",
+        "SHA-256",
+        "DES"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Cryptography"
+    },
+    {
+      "id": 4,
+      "question": "What is a Zero-Day vulnerability?",
+      "options": [
+        "A vulnerability that has been fixed immediately",
+        "A vulnerability that is unknown to the vendor",
+        "A vulnerability that only affects outdated systems",
+        "A vulnerability used by antivirus software"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Exploits & Vulnerabilities"
+    },
+    {
+      "id": 5,
+      "question": "Which attack involves tricking a user into clicking a malicious link?",
+      "options": [
+        "SQL Injection",
+        "Cross-Site Scripting (XSS)",
+        "Man-in-the-Middle (MITM)",
+        "Clickjacking"
+      ],
+      "correct": 3,
+      "difficulty": "Medium",
+      "topic": "Web Security"
+    },
+    {
+      "id": 6,
+      "question": "What is the strongest password format?",
+      "options": [
+        "12345678",
+        "mypassword",
+        "A complex mix of letters, numbers, and symbols",
+        "Your birthdate"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Password Security"
+    },
+    {
+      "id": 7,
+      "question": "Which type of malware disguises itself as legitimate software?",
+      "options": [
+        "Worm",
+        "Trojan Horse",
+        "Ransomware",
+        "Spyware"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Malware"
+    },
+    {
+      "id": 8,
+      "question": "What is the purpose of a firewall?",
+      "options": [
+        "To block unauthorized access to a network",
+        "To encrypt internet traffic",
+        "To protect against phishing attacks",
+        "To remove viruses from a computer"
+      ],
+      "correct": 0,
+      "difficulty": "Easy",
+      "topic": "Network Security"
+    },
+    {
+      "id": 9,
+      "question": "Which cybersecurity principle ensures that only authorized users can access data?",
+      "options": [
+        "Integrity",
+        "Confidentiality",
+        "Availability",
+        "Non-Repudiation"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Security Principles"
+    },
+    {
+      "id": 10,
+      "question": "Which of these is an example of a Denial-of-Service (DoS) attack?",
+      "options": [
+        "Stealing a user's credentials",
+        "Sending a flood of traffic to a website to make it unavailable",
+        "Injecting malicious SQL commands",
+        "Encrypting files and demanding ransom"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Network Security"
+    },
+    {
+      "id": 11,
+      "question": "What is social engineering in cybersecurity?",
+      "options": [
+        "Hacking into social media accounts",
+        "Manipulating people into revealing confidential information",
+        "Using AI to automate cyberattacks",
+        "A method to encrypt user passwords"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Social Engineering"
+    },
+    {
+      "id": 12,
+      "question": "Which cybersecurity framework is widely used for assessing security risks?",
+      "options": [
+        "NIST Cybersecurity Framework",
+        "HTML5 Security Guide",
+        "Data Protection Regulation",
+        "Cyber Risk Assessment Toolkit"
+      ],
+      "correct": 0,
+      "difficulty": "Medium",
+      "topic": "Cybersecurity Frameworks"
+    },
+    {
+      "id": 13,
+      "question": "What is a brute force attack?",
+      "options": [
+        "An attack that modifies database queries",
+        "An attack that encrypts data until a ransom is paid",
+        "An attack that tries all possible password combinations",
+        "An attack that redirects users to malicious websites"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Password Security"
+    },
+    {
+      "id": 14,
+      "question": "What is the role of an Intrusion Detection System (IDS)?",
+      "options": [
+        "To prevent unauthorized access",
+        "To detect and alert about suspicious network activity",
+        "To encrypt sensitive data",
+        "To replace antivirus software"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Network Security"
+    },
+    {
+      "id": 15,
+      "question": "Which of the following is a common method used to secure email communication?",
+      "options": [
+        "SMTP",
+        "POP3",
+        "PGP Encryption",
+        "HTTP"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Email Security"
+    }
+  ]
+}
+
