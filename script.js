@@ -9,23 +9,26 @@ document.addEventListener("DOMContentLoaded", function() {
   const progressEl = document.getElementById("progress");
   const finalScoreEl = document.getElementById("finalScore");
 
-  let allQuestions = [];
   let selectedQuestions = [];
   let currentIndex = 0;
   let score = 0;
 
-  // Function to shuffle an array
+  // Fisher-Yates Shuffle Algorithm for better randomization
   function shuffleArray(array) {
-    return array.sort(() => Math.random() - 0.5);
+    for (let i = array.length - 1; i > 0; i--) {
+      let j = Math.floor(Math.random() * (i + 1));
+      [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
   }
 
-  // Function to load questions from JSON
+  // Function to load and shuffle questions
   function loadQuestions() {
     fetch("questions.json")
       .then(response => response.json())
       .then(data => {
-        allQuestions = shuffleArray([...data.questions]); // Shuffle all questions first
-        selectedQuestions = allQuestions.slice(0, 5); // Pick only 5 questions
+        let shuffledQuestions = shuffleArray([...data.questions]); // True random shuffle
+        selectedQuestions = shuffledQuestions.slice(0, 5); // Pick 5 unique questions
         startQuiz();
       })
       .catch(error => console.error("Error loading questions:", error));
