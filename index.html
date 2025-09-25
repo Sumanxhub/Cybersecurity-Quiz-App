@@ -4,23 +4,48 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cybersecurity Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="home">
-      <h1>Welcome to the Cybersecurity Quiz!</h1>
-      <button id="startQuiz">Start Quiz</button>
-    </div>
+    <div class="app-container">
+      <div id="home">
+        <h1>Welcome to the Cybersecurity Quiz!</h1>
+        <!-- <p class="subtitle">Test your knowledge of digital defense.</p> -->
+        <!-- <button id="startQuiz" class="btn">Start Quiz</button> -->
+        <p class="subtitle">Select your difficulty level to begin.</p>
+        <div class="difficulty-selection">
+          <button class="btn btn-difficulty" data-difficulty="Easy">
+            Beginner
+          </button>
+          <button class="btn btn-difficulty" data-difficulty="Medium">
+            Intermediate
+          </button>
+          <button class="btn btn-difficulty" data-difficulty="Hard">
+            Expert
+          </button>
+        </div>
+      </div>
 
-    <div id="quiz" class="hidden">
-      <h2 id="question"></h2>
-      <div id="options"></div>
-      <p id="progress"></p>
-    </div>
+      <div id="quiz" class="hidden">
+        <div id="progress-container">
+          <div id="progress-bar"></div>
+        </div>
+        <p id="progress-text"></p>
+        <h2 id="question"></h2>
+        <div id="options"></div>
+      </div>
 
-    <div id="result" class="hidden">
-      <h1 id="finalScore"></h1>
-      <button id="restartQuiz">Restart Quiz</button>
+      <div id="result" class="hidden">
+        <h1 id="finalScore"></h1>
+        <p id="result-subtitle" class="subtitle"></p>
+        <button id="restartQuiz" class="btn">Return Home</button>
+      </div>
     </div>
 
     <script src="script.js"></script>
