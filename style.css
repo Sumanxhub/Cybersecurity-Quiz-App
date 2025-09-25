@@ -1,13 +1,39 @@
+:root {
+  --primary-color: #3498db; /* A vibrant blue */
+  --background-color: #1a1d28;
+  --card-background: #252936;
+  --text-color: #f0f0f0;
+  --text-secondary: #bdc3c7;
+  --correct-color: #2ecc71;
+  --wrong-color: #e74c3c;
+  --hover-border: rgba(52, 152, 219, 0.5);
+}
+
 body {
-  font-family: Arial, sans-serif;
-  text-align: center;
-  background: #f5f5f5;
+  font-family: "Poppins", sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
   margin: 0;
-  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .hidden {
   display: none;
+}
+
+.app-container {
+  width: 100%;
+  max-width: 600px;
+  background: var(--card-background);
+  border-radius: 15px;
+  padding: 30px 40px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+  text-align: center;
 }
 
 button {
@@ -20,38 +46,131 @@ button {
   margin-top: 10px;
 }
 
-#quiz,
-#result,
-#home {
-  width: 80%;
-  max-width: 500px;
-  margin: 20px auto;
-  padding: 20px;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+h1 {
+  margin-top: 0;
+  color: var(--primary-color);
 }
 
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  min-height: 80px;
+}
+
+.subtitle {
+  color: var(--text-secondary);
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+}
+
+.difficulty-selection {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+/* --- Button Styling --- */
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 8px;
+  transition:
+    transform 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
+}
+
+/* --- Options Styling --- */
 #options {
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  margin-top: 10px;
+  gap: 15px;
+  margin-top: 20px;
 }
 
 .option {
-  padding: 10px;
-  background: #e0e0e0;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.05);
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  text-align: left;
+  transition: all 0.3s ease;
+  position: relative;
 }
 
+.option:hover {
+  border-color: var(--hover-border);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+/* --- Correct/Wrong Answer Feedback --- */
 .option.correct {
-  background: #28a745;
+  background-color: var(--correct-color);
   color: white;
+  border-color: var(--correct-color);
 }
 
 .option.wrong {
-  background: #dc3545;
+  background-color: var(--wrong-color);
   color: white;
+  border-color: var(--wrong-color);
+}
+
+/* Add icons for feedback */
+.option.correct::after,
+.option.wrong::after {
+  font-size: 1.2rem;
+  font-weight: bold;
+  position: absolute;
+  right: 15px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.option.correct::after {
+  content: "✔";
+}
+
+.option.wrong::after {
+  content: "✖";
+}
+
+/* Disable pointer events after an answer is selected */
+.options-disabled .option {
+  pointer-events: none;
+}
+
+/* --- Progress Bar Styling --- */
+#progress-container {
+  width: 100%;
+  height: 8px;
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
+
+#progress-bar {
+  height: 100%;
+  width: 0%; /* Initially 0, updated by JS */
+  background-color: var(--primary-color);
+  border-radius: 4px;
+  transition: width 0.4s ease-in-out;
+}
+
+#progress-text {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-bottom: 20px;
 }
