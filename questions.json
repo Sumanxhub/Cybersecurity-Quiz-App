@@ -13,6 +13,7 @@
       "difficulty": "Easy",
       "topic": "Web Security"
     },
+
     {
       "id": 2,
       "question": "What is the primary goal of phishing attacks?",
@@ -26,19 +27,16 @@
       "difficulty": "Easy",
       "topic": "Social Engineering"
     },
+
     {
       "id": 3,
       "question": "Which of the following is NOT an encryption algorithm?",
-      "options": [
-        "AES",
-        "RSA",
-        "SHA-256",
-        "DES"
-      ],
+      "options": ["AES", "RSA", "SHA-256", "DES"],
       "correct": 2,
       "difficulty": "Medium",
       "topic": "Cryptography"
     },
+
     {
       "id": 4,
       "question": "What is a Zero-Day vulnerability?",
@@ -52,6 +50,7 @@
       "difficulty": "Hard",
       "topic": "Exploits & Vulnerabilities"
     },
+
     {
       "id": 5,
       "question": "Which attack involves tricking a user into clicking a malicious link?",
@@ -65,6 +64,7 @@
       "difficulty": "Medium",
       "topic": "Web Security"
     },
+
     {
       "id": 6,
       "question": "What is the strongest password format?",
@@ -78,19 +78,16 @@
       "difficulty": "Easy",
       "topic": "Password Security"
     },
+
     {
       "id": 7,
       "question": "Which type of malware disguises itself as legitimate software?",
-      "options": [
-        "Worm",
-        "Trojan Horse",
-        "Ransomware",
-        "Spyware"
-      ],
+      "options": ["Worm", "Trojan Horse", "Ransomware", "Spyware"],
       "correct": 1,
       "difficulty": "Medium",
       "topic": "Malware"
     },
+
     {
       "id": 8,
       "question": "What is the purpose of a firewall?",
@@ -104,6 +101,7 @@
       "difficulty": "Easy",
       "topic": "Network Security"
     },
+
     {
       "id": 9,
       "question": "Which cybersecurity principle ensures that only authorized users can access data?",
@@ -117,6 +115,7 @@
       "difficulty": "Medium",
       "topic": "Security Principles"
     },
+
     {
       "id": 10,
       "question": "Which of these is an example of a Denial-of-Service (DoS) attack?",
@@ -130,6 +129,7 @@
       "difficulty": "Hard",
       "topic": "Network Security"
     },
+
     {
       "id": 11,
       "question": "What is social engineering in cybersecurity?",
@@ -143,6 +143,7 @@
       "difficulty": "Easy",
       "topic": "Social Engineering"
     },
+
     {
       "id": 12,
       "question": "Which cybersecurity framework is widely used for assessing security risks?",
@@ -156,6 +157,7 @@
       "difficulty": "Medium",
       "topic": "Cybersecurity Frameworks"
     },
+
     {
       "id": 13,
       "question": "What is a brute force attack?",
@@ -169,6 +171,7 @@
       "difficulty": "Medium",
       "topic": "Password Security"
     },
+
     {
       "id": 14,
       "question": "What is the role of an Intrusion Detection System (IDS)?",
@@ -182,32 +185,25 @@
       "difficulty": "Hard",
       "topic": "Network Security"
     },
+
     {
       "id": 15,
       "question": "Which of the following is a common method used to secure email communication?",
-      "options": [
-        "SMTP",
-        "POP3",
-        "PGP Encryption",
-        "HTTP"
-      ],
+      "options": ["SMTP", "POP3", "PGP Encryption", "HTTP"],
       "correct": 2,
       "difficulty": "Medium",
       "topic": "Email Security"
     },
+
     {
       "id": 16,
       "question": "Which protocol is used to securely transfer files over the internet?",
-      "options": [
-        "FTP",
-        "SFTP",
-        "HTTP",
-        "POP3"
-      ],
+      "options": ["FTP", "SFTP", "HTTP", "POP3"],
       "correct": 1,
       "difficulty": "Medium",
       "topic": "Computer Networks"
     },
+
     {
       "id": 17,
       "question": "What is the main purpose of a VPN in cybersecurity?",
@@ -221,6 +217,7 @@
       "difficulty": "Easy",
       "topic": "Network Security"
     },
+
     {
       "id": 18,
       "question": "Which OS feature helps prevent unauthorized applications from modifying system files?",
@@ -234,6 +231,7 @@
       "difficulty": "Medium",
       "topic": "Operating Systems"
     },
+
     {
       "id": 19,
       "question": "What type of cyber attack involves overwhelming a system with excessive traffic?",
@@ -247,19 +245,16 @@
       "difficulty": "Easy",
       "topic": "Network Security"
     },
+
     {
       "id": 20,
       "question": "Which of the following is a secure replacement for Telnet?",
-      "options": [
-        "SSH",
-        "HTTP",
-        "SNMP",
-        "FTP"
-      ],
+      "options": ["SSH", "HTTP", "SNMP", "FTP"],
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Computer Networks"
     },
+
     {
       "id": 21,
       "question": "What does ARP stand for in networking?",
@@ -273,19 +268,16 @@
       "difficulty": "Medium",
       "topic": "Computer Networks"
     },
+
     {
       "id": 22,
       "question": "Which command can be used to list open network connections in Linux?",
-      "options": [
-        "ipconfig",
-        "netstat",
-        "traceroute",
-        "ping"
-      ],
+      "options": ["ipconfig", "netstat", "traceroute", "ping"],
       "correct": 1,
       "difficulty": "Medium",
       "topic": "Operating Systems"
     },
+
     {
       "id": 23,
       "question": "What is the function of a DMZ (Demilitarized Zone) in network security?",
@@ -299,19 +291,16 @@
       "difficulty": "Hard",
       "topic": "Network Security"
     },
+
     {
       "id": 24,
       "question": "Which type of malware records a user's keystrokes?",
-      "options": [
-        "Trojan Horse",
-        "Spyware",
-        "Keylogger",
-        "Ransomware"
-      ],
+      "options": ["Trojan Horse", "Spyware", "Keylogger", "Ransomware"],
       "correct": 2,
       "difficulty": "Medium",
       "topic": "Malware"
     },
+
     {
       "id": 25,
       "question": "Which operating system permission model ensures that a process cannot access resources it has not been granted?",
@@ -325,19 +314,21 @@
       "difficulty": "Hard",
       "topic": "Operating Systems"
     },
+
     {
       "id": 26,
-      "question": "What is the primary role of IDS (Intrusion Detection System)?",
+      "question": "In incident response, what is the primary goal of the 'Containment' phase?",
       "options": [
-        "To prevent unauthorized network access",
-        "To detect and alert on suspicious activity",
-        "To remove malware from infected systems",
-        "To encrypt sensitive data"
+        "To identify the attacker",
+        "To completely remove the threat from all systems",
+        "To prevent the security breach from spreading further",
+        "To restore normal operations from backups"
       ],
-      "correct": 1,
+      "correct": 2,
       "difficulty": "Medium",
-      "topic": "Network Security"
+      "topic": "Incident Response"
     },
+
     {
       "id": 27,
       "question": "Which cybersecurity attack targets a web application's database through malicious queries?",
@@ -351,19 +342,16 @@
       "difficulty": "Hard",
       "topic": "Web Security"
     },
+
     {
       "id": 28,
-      "question": "Which network topology is most resilient to failure?",
-      "options": [
-        "Bus",
-        "Ring",
-        "Mesh",
-        "Star"
-      ],
-      "correct": 2,
+      "question": "What is the technique of hiding malicious data within an ordinary file, such as an image or audio clip, to conceal its existence?",
+      "options": ["Obfuscation", "Steganography", "Cryptography", "Tunneling"],
+      "correct": 1,
       "difficulty": "Hard",
-      "topic": "Computer Networks"
+      "topic": "Data Hiding"
     },
+
     {
       "id": 29,
       "question": "What is the main purpose of two-factor authentication (2FA)?",
@@ -377,19 +365,16 @@
       "difficulty": "Easy",
       "topic": "Authentication"
     },
+
     {
       "id": 30,
       "question": "Which Linux command is used to change file permissions?",
-      "options": [
-        "chmod",
-        "chown",
-        "ls",
-        "pwd"
-      ],
+      "options": ["chmod", "chown", "ls", "pwd"],
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Operating Systems"
     },
+
     {
       "id": 31,
       "question": "Which network security device is designed to monitor and analyze network traffic for signs of suspicious activity?",
@@ -403,6 +388,7 @@
       "difficulty": "Medium",
       "topic": "Network Security"
     },
+
     {
       "id": 32,
       "question": "Which layer of the OSI model does a firewall primarily operate on?",
@@ -416,19 +402,21 @@
       "difficulty": "Medium",
       "topic": "Network Security"
     },
+
     {
       "id": 33,
-      "question": "What Linux command is used to change file permissions?",
+      "question": "What is the primary reason for regularly backing up important data?",
       "options": [
-        "chmod",
-        "chown",
-        "ls",
-        "mv"
+        "To make your computer run faster",
+        "To protect against data loss from hardware failure or ransomware",
+        "To free up storage space on your main drive",
+        "To share files more easily with others"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "Easy",
-      "topic": "Operating System Security"
+      "topic": "Data Security"
     },
+
     {
       "id": 34,
       "question": "What is the primary purpose of SELinux in Linux systems?",
@@ -442,19 +430,16 @@
       "difficulty": "Medium",
       "topic": "Operating System Security"
     },
+
     {
       "id": 35,
       "question": "Which of the following is NOT a type of malware?",
-      "options": [
-        "Trojan Horse",
-        "Keylogger",
-        "Phishing",
-        "Ransomware"
-      ],
+      "options": ["Trojan Horse", "Keylogger", "Phishing", "Ransomware"],
       "correct": 2,
       "difficulty": "Easy",
       "topic": "Malware & Threats"
     },
+
     {
       "id": 36,
       "question": "What does a rootkit primarily do?",
@@ -468,32 +453,25 @@
       "difficulty": "Hard",
       "topic": "Malware & Threats"
     },
+
     {
       "id": 37,
       "question": "Which encryption algorithm is commonly used in securing web traffic over HTTPS?",
-      "options": [
-        "RSA",
-        "AES",
-        "SHA-256",
-        "MD5"
-      ],
+      "options": ["RSA", "AES", "SHA-256", "MD5"],
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Cryptography"
     },
+
     {
       "id": 38,
       "question": "Which cryptographic hash function is considered insecure due to vulnerabilities?",
-      "options": [
-        "SHA-256",
-        "MD5",
-        "AES-256",
-        "RSA"
-      ],
+      "options": ["SHA-256", "MD5", "AES-256", "RSA"],
       "correct": 1,
       "difficulty": "Easy",
       "topic": "Cryptography"
     },
+
     {
       "id": 39,
       "question": "What is the primary goal of penetration testing?",
@@ -507,32 +485,25 @@
       "difficulty": "Medium",
       "topic": "Ethical Hacking"
     },
+
     {
       "id": 40,
       "question": "Which of the following is an open-source penetration testing tool?",
-      "options": [
-        "Metasploit",
-        "Wireshark",
-        "Nessus",
-        "McAfee"
-      ],
+      "options": ["Metasploit", "Wireshark", "Nessus", "McAfee"],
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Ethical Hacking"
     },
+
     {
       "id": 41,
       "question": "Which AWS service is primarily used for Identity and Access Management?",
-      "options": [
-        "AWS Lambda",
-        "AWS IAM",
-        "AWS S3",
-        "AWS CloudFront"
-      ],
+      "options": ["AWS Lambda", "AWS IAM", "AWS S3", "AWS CloudFront"],
       "correct": 1,
       "difficulty": "Easy",
       "topic": "Cloud Security"
     },
+
     {
       "id": 42,
       "question": "In cloud security, what does the 'Shared Responsibility Model' mean?",
@@ -546,6 +517,7 @@
       "difficulty": "Medium",
       "topic": "Cloud Security"
     },
+
     {
       "id": 43,
       "question": "What is the purpose of GDPR?",
@@ -559,19 +531,16 @@
       "difficulty": "Easy",
       "topic": "Security Policies & Compliance"
     },
+
     {
       "id": 44,
       "question": "Which compliance framework is used for securing payment card transactions?",
-      "options": [
-        "HIPAA",
-        "ISO 27001",
-        "PCI-DSS",
-        "SOC 2"
-      ],
+      "options": ["HIPAA", "ISO 27001", "PCI-DSS", "SOC 2"],
       "correct": 2,
       "difficulty": "Medium",
       "topic": "Security Policies & Compliance"
     },
+
     {
       "id": 45,
       "question": "Which network attack involves sending fake ARP messages to link an attacker’s MAC address with a legitimate IP address?",
@@ -585,19 +554,21 @@
       "difficulty": "Hard",
       "topic": "Network Security"
     },
+
     {
       "id": 46,
-      "question": "Which command can be used to check open ports on a Linux system?",
+      "question": "What does the acronym SIEM stand for in cybersecurity operations?",
       "options": [
-        "netstat",
-        "top",
-        "cat",
-        "grep"
+        "Secure Internet and Email Management",
+        "Security Information and Event Management",
+        "System Integrity and Enterprise Monitoring",
+        "Software Intrusion and Evasion Mechanics"
       ],
-      "correct": 0,
+      "correct": 1,
       "difficulty": "Medium",
-      "topic": "Operating System Security"
+      "topic": "Security Operations"
     },
+
     {
       "id": 47,
       "question": "What is the primary purpose of a honeypot in cybersecurity?",
@@ -611,19 +582,16 @@
       "difficulty": "Medium",
       "topic": "Ethical Hacking"
     },
+
     {
       "id": 48,
       "question": "Which type of malware spreads without user intervention by exploiting vulnerabilities?",
-      "options": [
-        "Worm",
-        "Trojan",
-        "Spyware",
-        "Adware"
-      ],
+      "options": ["Worm", "Trojan", "Spyware", "Adware"],
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Malware & Threats"
     },
+
     {
       "id": 49,
       "question": "What does 'Defense in Depth' mean in cybersecurity?",
@@ -637,6 +605,7 @@
       "difficulty": "Medium",
       "topic": "Security Best Practices"
     },
+
     {
       "id": 50,
       "question": "Which attack exploits vulnerabilities in web applications by injecting malicious scripts?",
@@ -649,7 +618,421 @@
       "correct": 0,
       "difficulty": "Medium",
       "topic": "Ethical Hacking"
+    },
+
+    {
+      "id": 51,
+      "question": "You receive an email claiming you've won a lottery you never entered. It asks for your bank details to send the prize. What is this an example of?",
+      "options": [
+        "A legitimate prize notification",
+        "A phishing scam",
+        "A software update",
+        "A targeted advertisement"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Social Engineering"
+    },
+
+    {
+      "id": 52,
+      "question": "Why is it considered risky to use public Wi-Fi (like in a cafe) for sensitive activities like online banking?",
+      "options": [
+        "The internet speed is usually too slow",
+        "Attackers on the same network can intercept your data",
+        "It uses too much of your device's battery",
+        "Public Wi-Fi often has time limits"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Network Security"
+    },
+
+    {
+      "id": 53,
+      "question": "What is the main function of antivirus software?",
+      "options": [
+        "To speed up your computer",
+        "To block annoying pop-up ads",
+        "To detect and remove malicious software",
+        "To back up your important files"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Defensive Measures"
+    },
+
+    {
+      "id": 54,
+      "question": "You create a new online account, and the site forces your password to include uppercase letters, numbers, and symbols. Why do they do this?",
+      "options": [
+        "To make the password harder for you to remember",
+        "To sell your data to advertisers",
+        "To make the password stronger and harder to guess",
+        "To comply with international spelling laws"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Password Security"
+    },
+
+    {
+      "id": 55,
+      "question": "What is a 'botnet'?",
+      "options": [
+        "A network of secure, private computers",
+        "A type of antivirus software",
+        "A network of infected computers controlled by an attacker",
+        "A social network for cybersecurity experts"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Malware"
+    },
+
+    {
+      "id": 56,
+      "question": "If a website URL begins with 'https://', what does the 's' signify?",
+      "options": [
+        "The site is 'Sponsored'",
+        "The connection is 'Secure' and encrypted",
+        "The site is 'Static' and does not change",
+        "The site is 'Singular' and has no copies"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Web Security"
+    },
+
+    {
+      "id": 57,
+      "question": "A pop-up appears on your screen saying 'Your computer is infected! Click here to clean it!' What is the safest action to take?",
+      "options": [
+        "Click the pop-up to fix the problem quickly",
+        "Call the phone number provided on the pop-up",
+        "Close the pop-up and run a scan with your own antivirus software",
+        "Enter your credit card details to buy their software"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Malware"
+    },
+
+    {
+      "id": 58,
+      "question": "What is the term for a text message that tries to trick you into clicking a malicious link?",
+      "options": ["Spam Call", "Emailing", "Smishing", "Vishing"],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Social Engineering"
+    },
+
+    {
+      "id": 59,
+      "question": "Which of the following is an example of 'spyware'?",
+      "options": [
+        "Software that encrypts your files for a ransom",
+        "A program that secretly records your browsing habits",
+        "A virus that deletes your system files",
+        "An email that tries to steal your password"
+      ],
+      "correct": 1,
+      "difficulty": "Easy",
+      "topic": "Malware"
+    },
+
+    {
+      "id": 60,
+      "question": "Before selling your old smartphone, what is the most important security step you should take?",
+      "options": [
+        "Charge the battery to full",
+        "Delete a few personal photos",
+        "Perform a factory reset to wipe all data",
+        "Log out of your social media apps"
+      ],
+      "correct": 2,
+      "difficulty": "Easy",
+      "topic": "Data Security"
+    },
+
+    {
+      "id": 61,
+      "question": "An attacker sets up a fake Wi-Fi network in an airport with a name like 'Airport_Free_WiFi'. What kind of attack is this?",
+      "options": [
+        "A DDoS Attack",
+        "An 'Evil Twin' Attack",
+        "A Ransomware Attack",
+        "A Brute Force Attack"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Network Attacks"
+    },
+
+    {
+      "id": 62,
+      "question": "What is the primary difference between a computer virus and a worm?",
+      "options": [
+        "A virus is harmful, but a worm is not",
+        "A virus needs a host program to spread, while a worm can self-replicate across networks",
+        "A worm targets networks, while a virus only targets files",
+        "A worm is a type of hardware, while a virus is software"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Malware"
+    },
+
+    {
+      "id": 63,
+      "question": "In a company, an employee in the marketing department is denied access to the company's financial records. This is an example of which security principle?",
+      "options": [
+        "The Principle of Open Access",
+        "The Principle of Least Privilege",
+        "The Principle of Full Disclosure",
+        "The Principle of Data Redundancy"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Security Principles"
+    },
+
+    {
+      "id": 64,
+      "question": "What is 'credential stuffing'?",
+      "options": [
+        "Creating very long and complex passwords",
+        "Storing passwords in a secure vault",
+        "Using lists of stolen usernames and passwords to try and log into other services",
+        "Encrypting a user's login credentials"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Password Attacks"
+    },
+
+    {
+      "id": 65,
+      "question": "A security analyst uses a tool like Wireshark to capture and analyze the data packets traveling over a network. What is this tool commonly known as?",
+      "options": [
+        "A packet sniffer",
+        "A code compiler",
+        "A system restore utility",
+        "A data compressor"
+      ],
+      "correct": 0,
+      "difficulty": "Medium",
+      "topic": "Hacking Tools"
+    },
+
+    {
+      "id": 66,
+      "question": "What is the purpose of 'salting' a password hash?",
+      "options": [
+        "To make the password shorter",
+        "To ensure the same password results in a unique hash for each user, preventing rainbow table attacks",
+        "To send the password over the network in plain text",
+        "To delete the password after one use"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Cryptography"
+    },
+
+    {
+      "id": 67,
+      "question": "An attacker compromises a popular software developer's update server to distribute malware disguised as a legitimate software update. What is this attack called?",
+      "options": [
+        "A Phishing Attack",
+        "A Supply Chain Attack",
+        "A DDoS Attack",
+        "A Man-in-the-Middle Attack"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Attack Types"
+    },
+
+    {
+      "id": 68,
+      "question": "What is 'tailgating' in the context of physical security?",
+      "options": [
+        "Following another vehicle too closely on the road",
+        "An unauthorized person following an authorized person into a secure area",
+        "Using a fake ID card to gain access",
+        "Analyzing a building's security from a distance"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Physical Security"
+    },
+
+    {
+      "id": 69,
+      "question": "Your bank sends you a 2FA code via text message to approve a login attempt you did not make. What does this likely signify?",
+      "options": [
+        "It's a routine system test by the bank",
+        "Your password has been compromised and someone is trying to log in",
+        "Your phone number is being updated",
+        "You have received a cash bonus"
+      ],
+      "correct": 1,
+      "difficulty": "Medium",
+      "topic": "Authentication"
+    },
+
+    {
+      "id": 70,
+      "question": "What is a 'watering hole' attack?",
+      "options": [
+        "Flooding a server with so much traffic it goes offline",
+        "Sending phishing emails to thousands of random people",
+        "Compromising a website that is frequently visited by a specific target group",
+        "Stealing water cooler gossip to learn company secrets"
+      ],
+      "correct": 2,
+      "difficulty": "Medium",
+      "topic": "Attack Types"
+    },
+
+    {
+      "id": 71,
+      "question": "An attacker successfully gains access to a system but wants to ensure their malicious code runs every time the system reboots. Which hacking phase involves this action?",
+      "options": [
+        "Reconnaissance",
+        "Gaining Access",
+        "Maintaining Access / Persistence",
+        "Covering Tracks"
+      ],
+      "correct": 2,
+      "difficulty": "Hard",
+      "topic": "Hacking Phases"
+    },
+
+    {
+      "id": 72,
+      "question": "What is a 'fileless malware' attack?",
+      "options": [
+        "An attack that deletes all files on a system",
+        "Malware that exists only in a computer's RAM and not as a file on the hard drive",
+        "A piece of malware that is smaller than 1 kilobyte",
+        "A theoretical type of malware that does not yet exist"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Advanced Malware"
+    },
+
+    {
+      "id": 73,
+      "question": "In ethical hacking, what is the key difference between a 'Red Team' and a 'Blue Team'?",
+      "options": [
+        "Red Teams use Windows, Blue Teams use Linux",
+        "Red Teams are the attackers trying to break in, while Blue Teams are the defenders",
+        "Red Teams are illegal hackers, Blue Teams are corporate security",
+        "Red Teams focus on hardware, Blue Teams focus on software"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Ethical Hacking"
+    },
+
+    {
+      "id": 74,
+      "question": "What is the primary function of a Web Application Firewall (WAF)?",
+      "options": [
+        "To block all traffic to a web server",
+        "To provide Wi-Fi access to users",
+        "To filter and block malicious HTTP traffic like SQL injection and XSS",
+        "To scan the web server for viruses"
+      ],
+      "correct": 2,
+      "difficulty": "Hard",
+      "topic": "Defensive Measures"
+    },
+
+    {
+      "id": 75,
+      "question": "What is a 'pass-the-hash' attack?",
+      "options": [
+        "A method of cracking a password by trying all hash combinations",
+        "An attack where the adversary steals a hashed user credential and uses it to authenticate without the plaintext password",
+        "A technique to make a password hash stronger",
+        "A type of DoS attack that uses hash packets"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Authentication Attacks"
+    },
+
+    {
+      "id": 76,
+      "question": "What kind of attack does Address Space Layout Randomization (ASLR) help to mitigate?",
+      "options": [
+        "Phishing attacks",
+        "Buffer overflow attacks",
+        "DDoS attacks",
+        "SQL injection attacks"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Exploit Mitigation"
+    },
+
+    {
+      "id": 77,
+      "question": "From a hacker's reconnaissance perspective, what is the main purpose of reviewing a target company's 'robots.txt' file?",
+      "options": [
+        "To find the passwords of the system administrators",
+        "To discover directories that the company does not want search engines to index, which may be sensitive",
+        "To launch a DDoS attack against the web server",
+        "To find out what antivirus the company uses"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Reconnaissance"
+    },
+
+    {
+      "id": 78,
+      "question": "A security analyst needs to safely analyze a suspicious file. They execute it in an isolated, monitored virtual environment to observe its behavior. What is this technique called?",
+      "options": [
+        "Decompiling",
+        "Sandboxing",
+        "Kernel Debugging",
+        "Port Scanning"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Malware Analysis"
+    },
+
+    {
+      "id": 79,
+      "question": "Which attack involves an adversary intercepting and modifying communication between two parties without their knowledge?",
+      "options": [
+        "A Smurf Attack",
+        "A Man-in-the-Middle (MITM) Attack",
+        "A Side-Channel Attack",
+        "A Teardrop Attack"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Network Attacks"
+    },
+
+    {
+      "id": 80,
+      "question": "What is a 'DNS spoofing' attack?",
+      "options": [
+        "Sending a large number of DNS requests to a server",
+        "Corrupting a DNS server's cache to redirect users from a legitimate site to a malicious one",
+        "Registering a domain name that is a common misspelling of a popular site",
+        "Blocking a user's access to a DNS server"
+      ],
+      "correct": 1,
+      "difficulty": "Hard",
+      "topic": "Network Attacks"
     }
   ]
 }
-
