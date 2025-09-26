@@ -1,49 +1,61 @@
-# 📜 Cybersecurity Quiz App
+# Cybersecurity Quiz App
 
-## Introduction
-The **Cybersecurity Quiz App** is an interactive web application designed to test users' knowledge of cybersecurity concepts. It presents multiple-choice questions on various topics like network security, malware, cryptography, ethical hacking, and more. The app is fully responsive and ensures a smooth user experience with automatic progression through questions.
+<h3 align="center"> Live link : [sumanxhub.github.io/Cybersecurity-Quiz-App](https://sumanxhub.github.io/Cybersecurity-Quiz-App/) </h3>
+
+<div align="center"> 
+![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
+![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+</div>
+
+<div align="center"> 
+    An interactive, scenario-based web application designed to test and improve your knowledge of cybersecurity concepts in a fun and engaging way.
+</div>
+
+
+## Preview
+
+<h5 align="center"> <u>Home Screen</u> </h5>
+<img src="./assets/1-home-screen.png" alt="Home Screen" align="center"/> <br>
+
+<h5 align="center"> <u>Quiz Screen</u> </h5>
+<img src="./assets/2-quiz-screen1.png" alt="Quiz Screen" align="center"/> <br>
+<img src="./assets/2-quiz-screen2.png" alt="Quiz Screen" align="center"/> <br>
+
+<h5 align="center"> <u>Result Screen</u> </h5>
+<img src="./assets/3-result-screen.png" alt="Result Screen" align="center"/> <br>
+
 
 ## Features
-- **Randomized Questions**: Every quiz session presents a shuffled set of questions.
-- **Auto Progression**: No need for a "Next" button—questions move forward automatically.
-- **Score Tracking**: Displays the user's final score and correct/incorrect answers.
-- **Responsive UI**: Works seamlessly on both desktop and mobile devices.
 
-## Technologies Used
-- **Frontend**: HTML, CSS, JavaScript
-- **Data Handling**: JSON (questions.json)
+  - **Difficulty Modes**: Select Beginner, Intermediate, or Pro to match your skill level.
+  - **Dynamic Questions**: Randomly selects 5 questions from a JSON-based question bank, tailored to your chosen difficulty.
+  - **Instant Feedback**: Options highlight as ✔ correct or ✖ incorrect with vibrant colors and icons.
+  - **Auto-Progression**: Automatically moves to the next question after a brief delay, creating a smooth user flow.
+  - **Modern Design**: Fully responsive, dark-themed interface optimized for all devices.
+  - **Visual Progress Bar**: Tracks your quiz progress with a sleek, animated bar.
+  - **Dynamic Score Feedback**: Personalized messages and a detailed score summary at the end.
 
-## Folder Structure
-```
-Quiz-App/
-│── index.html         # Main HTML file
-│── styles.css         # CSS for styling
-│── script.js          # Main JavaScript logic
-│── questions.json     # JSON file containing quiz questions
-```
 
-## Installation & Setup
-Follow these steps to run the Cybersecurity Quiz App locally:
-1. **Clone the repository:**
+## Local Setup
+
+To run this project locally, follow these simple steps:
+ * Clone the repository:
+
    ```sh
-   git clone https://github.com/Sumanxhub/Cybersecurity-Quiz-App.git
+    git clone https://github.com/your-github-username/your-repo-name.git
    ```
-2. **Navigate to the project folder:**
+
+ * Navigate to the project directory:
    ```sh
-   cd Cybersecurity-Quiz-App
+    cd your-repo-name
    ```
-3. **Open `index.html` in a web browser.**
-   - No additional setup required since it's a simple frontend project.
 
-## Usage Instructions
-1. Open the app in a browser.
-2. Click the "Start Quiz" button to begin.
-3. Answer the multiple-choice questions.
-4. Correct answers turn **green**, incorrect ones turn **red** (with the correct answer highlighted).
-5. The quiz progresses automatically to the next question.
-6. At the end, a **results page** displays your final score and summary.
+ * Open index.html in your favorite web browser.
+   * No complex setup or dependencies are required!
 
-## Demo & Screenshots
-*(To be added later)*
+## License
 
+This project is licensed under the [MIT License](LICENSE.txt).
 
