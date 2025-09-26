@@ -1,12 +1,12 @@
 # Cybersecurity Quiz App
 
-<h3 align="center"> Live link : [sumanxhub.github.io/Cybersecurity-Quiz-App](https://sumanxhub.github.io/Cybersecurity-Quiz-App/) </h3>
+<h3 align="center"> Live link : <a href="https://sumanxhub.github.io/Cybersecurity-Quiz-App/">sumanxhub.github.io/Cybersecurity-Quiz-App</a> </h3>
 
 <div align="center"> 
-![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black)
-![MIT License](https://img.shields.io/badge/License-MIT-green.svg)
+    <img src="https://img.shields.io/badge/HTML5-%23E34F26.svg?style=flat&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-%231572B6.svg?style=flat&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-%23F7DF1E.svg?style=flat&logo=javascript&logoColor=black" />
+    <img src="https://img.shields.io/badge/License-MIT-green.svg" />
 </div>
 
 <div align="center"> 
